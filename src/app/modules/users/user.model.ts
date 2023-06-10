@@ -4,7 +4,7 @@ import { IUser } from './users.interface'
 type UserModel = Model<IUser, object>
 
 const userSchema = new Schema<IUser>({
-  _id: {
+  id: {
     type: String,
     required: true,
     unique: true,

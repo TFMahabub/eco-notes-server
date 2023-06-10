@@ -1,6 +1,7 @@
 export type IUser = {
-  _id: string
+  id: string
   name: string
+  password: string
   role: string
   savedItem: string[]
   createdAt: string
